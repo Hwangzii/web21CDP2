@@ -1,0 +1,315 @@
+﻿@page
+@model WebApplication1.Pages.clients.My_CVModel
+@{
+}
+
+<style>
+    body {
+        background-color: #D5D5D5;
+        font-size: system-ui;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+        background-color: #E9E7EA;
+        width: 1000px;
+        max-width: 400%;
+        margin: auto;
+        padding: 50px;
+        box-shadow: 0px 10px 50px #858585;
+        display: grid;
+        grid-template-columns: 35% 60%;
+        column-gap: 5%;
+        row-gap: 30px;
+    }
+
+    .avatar img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .avatar {
+        display: flex;
+        justify-content: end;
+    }
+
+    .name {
+        padding-left: 12%;
+        border-left: 1px solid #000;
+    }
+
+        .name h1 {
+            font-weight: 300;
+            font-size: xxx-large;
+            margin: 0 0 5px;
+        }
+
+        .name .specialize {
+            margin: 0;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        .name .contact {
+            padding: 0;
+            list-style: none;
+        }
+
+            .name .contact span {
+                display: inline-block;
+                background-color: #000;
+                color: #fff;
+                border-radius: 50%;
+                text-align: center;
+                font-size: small;
+                margin-right: 20px;
+            }
+
+            .name .contact li {
+                padding: 5px 0;
+                transform: translate(-40px);
+            }
+
+    .info ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: right;
+        line-height: 30px;
+    }
+
+    .intro {
+        padding-left: 30px;
+        border-left: 1px solid #000;
+        text-align: justify;
+    }
+
+    h2 {
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .exp {
+        text-align: right;
+    }
+
+        .exp h3 {
+            margin: 20px 0 10px;
+        }
+
+    .skills {
+        margin-top: 50px;
+    }
+
+    .exp ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 35px;
+    }
+
+    .project {
+        padding-left: 30px;
+        text-align: justify;
+        border-left: 1px solid #000;
+    }
+
+        .project .web {
+            color: green;
+            padding: 10px 0;
+        }
+
+        .project .location {
+            font-weight: 500;
+            padding: 10px 0;
+        }
+
+
+        .project .item {
+            position: relative;
+        }
+
+            .project .item::before {
+                position: absolute;
+                width: 13px;
+                height: 13px;
+                background-color: #000;
+                content: '';
+                border-radius: 50%;
+                left: -37px;
+            }
+
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="avatar">
+            <img src="/Images/img2.jpg" alt="">
+        </div>
+        <div class="name">
+            <h1>HOANG PHI</h1>
+            <div class="specialize">
+                Front-end Developer
+            </div>
+            <ul class="contact">
+                <li>
+                    - 2155010196
+                </li>
+                <li>
+                    - hwangzii@gmail.com
+                </li>
+                <li>
+                    - haziiweb.com
+                </li>
+            </ul>
+        </div>
+        <div class="info">
+            <ul>
+                <li>
+                    From <b>HaNoi</b> - VietNam
+                </li>
+                <li>
+                    01/01/2010
+                </li>
+                <li>
+                    Hanoi Achitectural University
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="intro">
+            <h2>INTRO</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempora voluptates delectus deleniti odit adipisci mollitia,
+            recusandae odio minus laborum at unde nostrum?
+            Fugit, eum. Provident eligendi consequuntur et cumque architecto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempora voluptates delectus deleniti odit adipisci mollitia,
+            recusandae odio minus laborum at unde nostrum?
+            Fugit, eum. Provident eligendi consequuntur et cumque architecto!
+        </div>
+
+        <div class="exp">
+            <h2>EXPERIENCE</h2>
+            <div class="item">
+                <h4>Front-end Developer</h4>
+                <div class="time">
+                    <span>2020-2022</span>
+                    <span>| ABCD Company</span>
+                </div>
+                <div class="des">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, labore architecto. Assumenda doloribus, reprehenderit sapiente dicta autem sit voluptatem consectetur amet, ratione nihil maxime veritatis. Laudantium est culpa consectetur quibusdam.
+                </div>
+            </div>
+
+            <div class="item">
+                <h4>
+                    Student</h3>
+                    <div class="time">
+                        <span>2021-2025</span>
+                        <span>| Hanoi Achitectural University</span>
+                    </div>
+                    <div class="des">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, labore architecto. Assumenda doloribus, reprehenderit sapiente dicta autem sit voluptatem consectetur amet, ratione nihil maxime veritatis. Laudantium est culpa consectetur quibusdam.
+                    </div>
+            </div>
+
+            <h2 class="skills"> skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>javascript</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Git</li>
+                <li>Photoshop</li>
+                <li>Illustrater</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h2>Project</h2>
+            <div class="item">
+                <h4>Website shopping shirt</h4>
+                <div class="time">
+                    2020
+                </div>
+                <div class="web">
+                    www.haziiweb.com
+                </div>
+                <div class="location">
+                    Front-end Developer
+                </div>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur unde earum perspiciatis ipsum nesciunt odit iure, error necessitatibus magnam fuga molestiae, ullam aliquid nobis eveniet veritatis et ipsa architecto tempore?
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga aliquid </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item">
+                <h4>Food-Korean restaurant management software </h4>
+                <div class="time">
+                    2020
+                </div>
+                <div class="web">
+                    www.haziiweb.com
+                </div>
+                <div class="location">
+                    Front-end Developer
+                </div>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur unde earum perspiciatis ipsum nesciunt odit iure, error necessitatibus magnam fuga molestiae, ullam aliquid nobis eveniet veritatis et ipsa architecto tempore?
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga aliquid </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item">
+                <h4>Design database</h4>
+                <div class="time">
+                    2020
+                </div>
+                <div class="web">
+                    www.haziiweb.com
+                </div>
+                <div class="location">
+                    Front-end Developer
+                </div>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur unde earum perspiciatis ipsum nesciunt odit iure, error necessitatibus magnam fuga molestiae, ullam aliquid nobis eveniet veritatis et ipsa architecto tempore?
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga aliquid </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

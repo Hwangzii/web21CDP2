@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|d:\\chung\\jobs\\web\\hazicodelearn\\webapplication1\\webapplication1\\pages\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|d:\\chung\\jobs\\web\\hazicodelearn\\webapplication1\\webapplication1\\pages\\clients\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\clients\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|d:\\chung\\jobs\\web\\hazicodelearn\\webapplication1\\webapplication1\\pages\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|d:\\chung\\jobs\\web\\hazicodelearn\\webapplication1\\webapplication1\\pages\\clients\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3CE8600-64D9-40CC-BE5C-D429BF7A27ED}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\clients\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 253,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\clients\\Create.cshtml.cs",
+              "ToolTip": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Create.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\clients\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T07:55:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\clients\\Create.cshtml",
+              "ToolTip": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\clients\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T07:54:42.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\clients\\Index.cshtml",
+              "ToolTip": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\clients\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T07:54:39.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\clients\\Login.cshtml",
+              "ToolTip": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\Pages\\clients\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\clients\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T07:54:32.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
