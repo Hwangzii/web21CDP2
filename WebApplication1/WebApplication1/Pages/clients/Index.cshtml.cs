@@ -17,8 +17,7 @@ namespace WebApplication1.Pages.clients
         {
             try
             {
-                string connectionString = "Data Source=HOANGPHI;Initial Catalog=incomeManagement;" +
-                    "Integrated Security=True;Trust Server Certificate=True";
+                string connectionString = "Data Source=HOANGPHI;Initial Catalog=WEB_21CDP2;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

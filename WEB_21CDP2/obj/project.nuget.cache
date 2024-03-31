@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w01bk2cOSAlTmcmcXfKF/qLLG6RaRlC5di8CYFUoCfOur47Bi0EJ5k9yo43f8cCM918n7nBlFLdGRkJbY50esA==",
+  "dgSpecHash": "e9z0H9RpHHvi9VPcFbDatuSTiCQI60IGYn04z/ORkfDqtRjsrYXD097LwgYR7yJ7syJMaQLktuRiqrfKSpSBCg==",
   "success": true,
-  "projectFilePath": "D:\\Chung\\JOBS\\Web\\WEB_21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj",
+  "projectFilePath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhpph\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nhpph\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

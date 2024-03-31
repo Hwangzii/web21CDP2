@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L76klnpSIBihyc/86qrAQz4PNdEtk2uNiUFB/GLSYHgmpPaQoDdJ+aF6FgEb9YSsYj+JNDqHYL05W/lB857YbQ==",
+  "dgSpecHash": "gWACJhpZn0484Lxr1nsmfl8E1y4NaKbJPedFCInAlNLaOcbbd/S5Ex4SGVtR3NRIvRoNzfSioNVI+Axyun2MIA==",
   "success": true,
-  "projectFilePath": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhpph\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nhpph\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

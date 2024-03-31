@@ -33,7 +33,7 @@ namespace WebApplication1.Pages.clients
             //if ok, save new client to database
             try
             {
-                string connectionString = "Data Source=HOANGPHI;Initial Catalog=incomeManagement;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+                string connectionString = "Data Source=DIUHOE;Initial Catalog=WEB21CDP2;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

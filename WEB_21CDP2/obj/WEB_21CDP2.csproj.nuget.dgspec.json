@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Chung\\JOBS\\Web\\WEB_21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj": {}
+    "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj": {}
   },
   "projects": {
-    "D:\\Chung\\JOBS\\Web\\WEB_21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj": {
+    "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chung\\JOBS\\Web\\WEB_21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj",
+        "projectUniqueName": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj",
         "projectName": "WEB_21CDP2",
-        "projectPath": "D:\\Chung\\JOBS\\Web\\WEB_21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj",
+        "projectPath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj",
         "packagesPath": "C:\\Users\\nhpph\\.nuget\\packages\\",
-        "outputPath": "D:\\Chung\\JOBS\\Web\\WEB_21CDP2\\WEB_21CDP2\\obj\\",
+        "outputPath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\APPLICATION\\C#\\SharedComponentToolsAndSDKs\\NuGetPackages"

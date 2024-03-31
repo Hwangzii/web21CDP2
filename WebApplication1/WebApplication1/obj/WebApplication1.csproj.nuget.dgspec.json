@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\nhpph\\.nuget\\packages\\",
-        "outputPath": "D:\\Chung\\JOBS\\Web\\hazicodelearn\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\APPLICATION\\C#\\SharedComponentToolsAndSDKs\\NuGetPackages"
