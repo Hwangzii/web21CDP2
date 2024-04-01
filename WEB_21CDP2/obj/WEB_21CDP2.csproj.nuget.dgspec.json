@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj": {}
+    "C:\\Users\\pc\\Desktop\\web\\web21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj": {}
   },
   "projects": {
-    "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj": {
+    "C:\\Users\\pc\\Desktop\\web\\web21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\web\\web21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj",
         "projectName": "WEB_21CDP2",
-        "projectPath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\WEB_21CDP2.csproj",
-        "packagesPath": "C:\\Users\\nhpph\\.nuget\\packages\\",
-        "outputPath": "D:\\Chung\\JOBS\\git\\WEB\\FILE_CHINH\\WEB_21CDP2\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Desktop\\web\\web21CDP2\\WEB_21CDP2\\WEB_21CDP2.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\web\\web21CDP2\\WEB_21CDP2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\APPLICATION\\C#\\SharedComponentToolsAndSDKs\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nhpph\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -92,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
