@@ -9,7 +9,7 @@ namespace WEB_21CDP2.Controllers
             return View();
         }
 
-        public IActionResult ThongKe() {
+        public IActionResult Giaodich() {
             return View();
         }
         public IActionResult PageTest1() 
