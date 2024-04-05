@@ -1,0 +1,173 @@
+﻿@page
+@model BCCM1.Pages.Users.TransactionsModel
+@{
+    ViewData["Title"] = "Transactions";
+}
+
+@section Scripts {
+    <script>
+        // Đợi cho tất cả các phần tử trong DOM được tải hoàn toàn
+        document.addEventListener('DOMContentLoaded', function () {
+            // Lấy navbar bằng cách sử dụng querySelector
+            var navbar = document.querySelector('.navbar');
+            // Ẩn thanh navbar bằng cách thêm lớp CSS 'd-none' (ẩn)
+            navbar.classList.add('d-none');
+        });
+    </script>
+}
+
+<style>
+    input[type=submit] {
+        width: 100%;
+        background-color: #198754;
+        color: white;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 5vw;
+        cursor: pointer;
+        margin-top: 2vw;
+    }
+
+        input[type=submit]:hover {
+            background-color: #198754;
+        }
+
+    form-thu {
+        border-radius: 5vw;
+        padding: 20px;
+    }
+    .underlist {
+        list-style-type: none;
+        margin: 1vw 0vw 0vw 2vw;
+        padding: 0;
+        width: 10%;
+        position: fixed;
+        height: 100%;
+        overflow: auto
+    }
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+        .btn_submit{
+            background-color: #4ab78d;
+            border-radius: 50px;
+        }
+
+        .input{
+            width: 120px;
+            background-color: lightgrey;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+</style>
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light ">
+    <div class="container-fluid" style="margin:0vw 5vw 0vw 5vw">
+        <a class="navbar-brand" asp-area="" asp-page="/Users/Homepage" style="width:10%; height:10%">
+            <div>
+                <img src="/img/logo.png" style="float:left; max-width:40%; max-height:40%" />
+            </div>
+        </a>
+        <form method="post">
+            <input type="hidden" name="id" value="@Model.userInfo.id" />
+        </form>
+        <div style="margin-left: auto;margin-right: 1vw;">
+            @Model.userInfo.email
+        </div>
+        <a href="/Index"><button class="btn btn-outline-success" style="border-radius:5vw; float:right">Log out</button></a>
+    </div>
+</nav>
+
+<center>
+    <ul class="underlist">
+        <li><a style="border-radius:2vw" href="/Users/Homepage?id=@Model.userInfo.id">Trang chủ</a></li>
+        <li><a class="active" style="border-radius:2vw;margin-top:1vw" href="/Users/Transactions?id=@Model.userInfo.id">Giao dịch</a></li>
+        <li><a style="border-radius:2vw;margin-top:1vw" href="/Users/Infor?id=@Model.userInfo.id">Tài khoản</a></li>
+    </ul>
+</center>
+
+<div class="pl-4" style="background-color:#d5f7e6; margin-left:14%; height: 100vh">
+    <form method="post">
+        <div class="d-flex flex-row w-100 justify-content-between p-2 pt-3">
+            <div class="col-5">
+                <div class="input-group mb-3">
+                    <span class="input d-flex align-items-center justify-content-center" id="basic-addon1">Số tiền</span>
+                    <input name="amount" type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" value="@Model.transInfo.amount">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input d-flex align-items-center justify-content-center" id="basic-addon1">Loại thu nhập</span>
+                    <select name="type" type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                        <option value="Income">Income</option>
+                        <option value="Expense">Expense</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input d-flex align-items-center justify-content-center" id="basic-addon1">Danh mục</span>
+                    <input name="category" type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" value="@Model.transInfo.category">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input d-flex align-items-center justify-content-center" id="basic-addon1">Ngày thu</span>
+                    <input name="tranDate" type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" value="@Model.transInfo.transDate">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input d-flex align-items-center justify-content-center" id="basic-addon1">Mô tả chi tiết</span>
+                    <input name="description" type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" value="@Model.transInfo.description">
+                </div>
+
+                <button type="submit" class="btn_submit btn-success w-25" asp-page-handler="">Submit</button>
+            </div>
+
+            <img class="w-50 col-5" src="/img/thu_chi.jpg" />
+
+        </div>
+    </form>
+    <div class="col-12 p-2 mt-2">
+        <table class="table table-succes table-striped-colums">
+            <thead>
+                <tr>
+                    <th colspan="1" scope="col">ID</th>
+                    <th colspan="2" scope="col">Số tiền</th>
+                    <th colspan="2" scope="col">Loại chi tiêu</th>
+                    <th colspan="2" scope="col">Danh mục</th>
+                    <th colspan="2" scope="col">Ngày thu</th>
+                    <th colspan="2" scope="col">Mô tả chi tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.listTrans)
+                {                
+                    <tr>
+                    <th colspan="1" scope="row">@item.transId</th>
+                    <td colspan="2">@item.amount</td>
+                    <td colspan="2">@item.type</td>
+                    <td colspan="2">@item.category</td>
+                    <td colspan="2">@item.transDate</td>
+                    <td colspan="2">@item.description</td>
+
+                </tr>
+                }
+
+             
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script>
+
+</script>

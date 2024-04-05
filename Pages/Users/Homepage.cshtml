@@ -1,0 +1,144 @@
+﻿@page
+@model BCCM1.Pages.Users.HomepageModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+@section Scripts {
+    <script>
+        // Đợi cho tất cả các phần tử trong DOM được tải hoàn toàn
+        document.addEventListener('DOMContentLoaded', function () {
+            // Lấy navbar bằng cách sử dụng querySelector
+            var navbar = document.querySelector('.navbar');
+            // Ẩn thanh navbar bằng cách thêm lớp CSS 'd-none' (ẩn)
+            navbar.classList.add('d-none');
+        });
+    </script>
+}
+
+
+<style>
+    .underlist {
+      list-style-type: none;
+      margin:1vw 0vw 0vw 2vw;
+      padding: 0;
+      width: 10%;
+      position: fixed;
+      height: 100%;
+      overflow: auto
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+</style>
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light ">
+    <div class="container-fluid" style="margin:0vw 5vw 0vw 5vw">
+        <a class="navbar-brand" asp-area="" asp-page="/Users/Homepage" style="width:10%; height:10%">
+            <div>
+                <img src="/img/logo.png" style="float:left; max-width:40%; max-height:40%" />
+            </div>
+        </a>
+        <form method="post"> 
+        <input type="hidden" name="id" value="@Model.userInfo.id" />
+        </form>
+        <div style="margin-left: auto;margin-right: 1vw;">
+            @Model.userInfo.email
+        </div>
+
+        <a href="/Index"><button class=" btn btn-outline-success" style="border-radius:5vw; float:right">Log out</button></a>
+    </div>
+</nav>
+
+<center>
+    <ul class="underlist">
+        <li><a class="active" style="border-radius:2vw">Trang chủ</a></li>
+        <li><a style="border-radius:2vw;margin-top:1vw" href="/Users/Transactions?id=@Model.userInfo.id">Giao dịch</a></li>
+        <li><a style="border-radius:2vw;margin-top:1vw" href="/Users/Infor?id=@Model.userInfo.id">Tài khoản</a></li>
+                
+    </ul>
+</center>
+
+<div style="background-color:#d5f7e6; margin-left:14%;padding:1px 16px;height:1000px;">
+    <div class="row" style="margin:1vw">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title" style="color:#198754">Tổng tiền thu</h2>
+                    <center><h1 class="card-text">@Model.transaction.amountIncome</h1></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title" style="color:#198754">Tổng tiền hiện tại</h2>
+                    <center><h1 class="card-text">@Model.account.balance</h1></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title" style="color:#198754">Tổng tiền chi</h2>
+                    <center><h1 class="card-text">@Model.transaction.amountExp</h1></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <body onload="createChart()">
+        <!-- Gọi hàm createChart() khi trang được tải -->
+
+        <canvas id="myChart" style="height:100%;max-height:720px;width:100%;max-width:3000px"></canvas>
+
+        <script>
+            const xValues = ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"];
+            const yValues1 = [55, 49, 44, 24, 105, 90, 75, 60, 45, 30, 15, 0]; // Giá trị cho cột 1
+            const yValues2 = [30, 25, 20, 15, 10, 5, 15, 20, 25, 30, 35, 40]; // Giá trị cho cột 2
+            const barColors = ["green", "#295450"]; // Màu cho từng cột
+
+            // Hàm tạo biểu đồ
+            function createChart() {
+                new Chart("myChart", {
+                    type: "bar",
+                    data: {
+                        labels: xValues,
+                        datasets: [{
+                            label: 'Doanh thu', // Nhãn cho biểu đồ
+                            backgroundColor: barColors[0], // Màu cho cột 1
+                            data: yValues1 // Dữ liệu cho cột 1
+                        },
+                        {
+                            label: 'Sản lượng', // Nhãn cho biểu đồ
+                            backgroundColor: barColors[1], // Màu cho cột 2
+                            data: yValues2 // Dữ liệu cho cột 2
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: "World Wine Production 2018"
+                        }
+                    }
+                });
+            }
+        </script>
+    </body>
+
+</div>
